@@ -41,7 +41,4 @@ int main() {
     printf("Designation: %s\n", e.designation);
     printf("Gender: %s\n", e.gender);
     printf("Date of joining: %s\n", e.date_of_joining);
-    printf("Salary: %.2f\n", e.salary);
-
-    return 0;
-}
+    printf("Salary: %.2f\n", e.salary);     }
