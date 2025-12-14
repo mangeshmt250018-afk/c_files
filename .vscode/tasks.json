@@ -1,4 +1,33 @@
 {
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C/C++: gcc build active file (with -lm)",
+      "type": "shell",
+      "command": "/usr/bin/gcc",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}",
+        "-lm"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}{
     "tasks": [
         {
             "type": "cppbuild",

@@ -48,8 +48,4 @@ while (scanf("%d",&choice)&&choice!=0)
 
 }
 printf("Total Bill = %.2f\n",total);
-
-
-
-
 }
